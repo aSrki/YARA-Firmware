@@ -6,12 +6,12 @@ Firmware of YARA robot was developed using STM32 NUCLEO F303K8 developement boar
 Communication between PC and NUCLEO board is accomplished using USB/UART protocol. 
 
 <p align="center">
-![Alt text](https://github.com/aSrki/YARA-Firmware/blob/main/images/NUCLEO-F303K8.jpg)
+  <img src="https://github.com/aSrki/YARA-Firmware/blob/main/images/NUCLEO-F303K8.jpg"/>
 </p>
 
 Stepper motor driver used in this project are TMC2209. They were chosen because of their small footprint, "silent driver" technology and easu-of-use. 
 They are controled using STEP and DIR pins because of easy of use, although UART communication way of control should be a better solution. (Maybe TODO for later?)
 
 <p align="center">
-![Alt text](https://github.com/aSrki/YARA-Firmware/blob/main/images/TMC2209.jpg)
+  <img src="https://github.com/aSrki/YARA-Firmware/blob/main/images/TMC2209.jpg"/>
 </p>
