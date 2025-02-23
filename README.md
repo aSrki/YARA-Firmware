@@ -9,7 +9,7 @@ Communication between PC and NUCLEO board is accomplished using USB/UART protoco
   <img src="https://github.com/aSrki/YARA-Firmware/blob/main/images/NUCLEO-F303K8.jpg" width="400"/>
 </p>
 
-Stepper motor driver used in this project are TMC2209. They were chosen because of their small footprint, "silent driver" technology and easu-of-use. 
+Stepper motor drivers used in this project are TMC2209. They were chosen because of their small footprint, "silent driver" technology and easu-of-use. 
 They are controled using STEP and DIR pins because of easy of use, although UART communication way of control should be a better solution. (Maybe TODO for later?)
 
 <p align="center">
